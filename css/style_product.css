@@ -224,7 +224,7 @@
   margin: 0 auto;
   padding-top: 200px;
   width: 890px;
-  height: 4250px;
+  height: 4420px;
   color: #000;
 }
 
@@ -265,7 +265,7 @@
 .product_in .img2-2 img {
   padding-right: 15px;
   float: left;
-  width: 50px;
+  width: 65px;
   height: 50px;
 }
 
@@ -286,7 +286,7 @@ hr {
   text-align: center;
   margin: 0 auto;
   width: 800px;
-  height: 750px;
+  height: 820px;
   color: #000;
   font-weight: 600;
 }
@@ -301,6 +301,7 @@ hr {
 
 .recommended img {
   position: absolute;
+  cursor: pointer;
   float: left;
   width: 170px;
   height: 380px;
