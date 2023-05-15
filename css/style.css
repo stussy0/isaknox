@@ -56,22 +56,23 @@
   display: none;
   position: absolute;
   top: 45px;
-  left: 105%;
-  transform: translateX(-50%);
-  width: 100vw;
-  height: 260px;
+  left: -85vh;
+  /* transform: translateX(-50%); */
+  width: 110vw;
+  height: 30vh;
   background-color: rgba(255, 255, 255, 0.7);
   border-top: 1px solid #9c9c9c;
   z-index: 1;
 }
 
 .menu-dropdown ul {
+  padding-top: 10px;
 }
 
 .menu-dropdown li {
   display: block;
   text-align: center;
-  padding: 13px 20px;
+  padding: 13px 10px;
   font-size: 15px;
   line-height: 13px;
 }
@@ -79,10 +80,6 @@
 .menu-dropdown:hover,
 .menu-trigger:hover .menu-dropdown {
   display: block;
-}
-
-.menu-trigger {
-  position: relative;
 }
 
 .nav:hover .menu-dropdown {
@@ -99,7 +96,7 @@
 }
 
 .menu-dropdown .brand_mn {
-  width: 150px;
+  width: 145px;
   float: left;
 }
 
@@ -108,10 +105,15 @@
   font-size: 13px;
 }
 
+.dropdown {
+  position: absolute;
+  left: 517px;
+}
+
 .product_mn p {
   font-size: 13px;
   width: 100px;
-  height: 100px;
+  height: 50px;
   padding-top: 10px;
   float: left;
 }
@@ -157,7 +159,6 @@
   width: 100vw;
   height: 1180px;
   position: relative;
-  background-color: #2d2d2d;
 }
 
 #container img {
@@ -187,12 +188,10 @@ button {
 }
 
 #content1 {
-  position: relative;
   z-index: 2;
 }
 
 #content2 {
-  position: relative;
   z-index: 1;
 }
 
@@ -222,15 +221,11 @@ button {
 .arrivals_text2 p {
   position: absolute;
   top: 110px;
-  right: 17vw;
+  right: 18.5vw;
   font-size: 1.2rem;
   color: #000;
   border-bottom: 1px solid;
-}
-
-.arrivals_text1 a,
-.arrivals_text2 a {
-  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .arrivals_in1,
@@ -288,7 +283,7 @@ button {
 #giftset {
   position: relative;
   max-width: 100vw;
-  height: 2130px;
+  height: 282.8vh;
   padding-top: 200px;
 }
 
@@ -306,7 +301,7 @@ button {
 
 .set_text p {
   position: absolute;
-  right: 315px;
+  right: 18.5vw;
   font-size: 1.2rem;
   color: #000;
   border-bottom: 1px solid;
@@ -314,24 +309,26 @@ button {
 
 .set_in {
   float: left;
+
   width: 100vw;
-  height: 610px;
+  height: 80.2vh;
 }
 
 .set_in picture {
   float: left;
-  width: 6vw;
-  height: 610px;
 }
 .set_in picture img {
   width: 6vw;
+  height: 80.2vh;
 }
 
 .set_in .text {
   padding-left: 140px;
   float: left;
   width: 44vw;
-  height: 610px;
+  height: 80.2vh;
+  padding-top: 10vh;
+  padding-bottom: 50px;
 }
 
 .set_in .text h4 {
@@ -342,26 +339,28 @@ button {
 .set_in .text p {
   line-height: 20px;
   padding-bottom: 50px;
-  font-size: 0.88rem;
 }
 
 .set_in .text a {
+  font-size: 0.88rem;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 .set_in .img_right img {
   float: left;
-  width: 49vw;
-  height: 610px;
+  width: 50vw;
+  height: 80.2vh;
   object-fit: cover;
+  cursor: pointer;
 }
 
 /* 스토리 */
 #story {
   max-width: 100vw;
-  height: 158vh;
+  height: 100vh;
   padding-top: 200px;
+  box-sizing: content-box;
 }
 
 #story picture {
@@ -370,13 +369,13 @@ button {
 
 #story img {
   width: 54vw;
-  height: 158vh;
+  height: 100vh;
 }
 
 #story .text {
   float: left;
   padding-top: 35px;
-  padding-left: 35px;
+  padding-left: 55px;
 }
 
 #story .text h4 {
@@ -446,15 +445,16 @@ button {
   margin: 0 auto;
   position: relative;
   max-width: 100vw;
-  height: 900px;
-  padding-top: 200px;
+  height: 75.5vh;
+  padding: 200px 0 200px 0;
+  box-sizing: content-box;
 }
 
 .sns_txt {
   position: absolute;
   float: left;
   width: 29vw;
-  height: 580px;
+  height: 75.5vh;
   padding-left: 14vw;
 }
 
@@ -475,13 +475,12 @@ button {
 .sns_img {
   position: absolute;
   right: 0px;
-  height: 580px;
 }
 
 .sns_img img {
   padding-left: 20px;
   width: 22vw;
-  height: 580px;
+  height: 75.5vh;
   object-fit: cover;
 }
 
