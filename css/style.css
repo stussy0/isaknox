@@ -39,6 +39,10 @@
   left: 20%;
 }
 
+.icon {
+  display: none;
+}
+
 .nav li {
   float: left;
   padding-right: 5vw;
@@ -148,12 +152,12 @@
 #main {
   position: relative;
   margin: 0 auto;
-  max-width: 99vw;
+  max-width: 100vw;
   padding-bottom: 100px;
 }
 
 #container {
-  width: 99vw;
+  width: 100vw;
   height: 1180px;
   position: relative;
 }
@@ -162,7 +166,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 99vw;
+  width: 100vw;
   height: 100%;
   display: none;
 }
@@ -202,14 +206,14 @@ button {
 
 .arrivals_text1,
 .arrivals_text2 {
-  width: 99vw;
+  width: 100vw;
   height: 100px;
 }
 
 .arrivals_text1 h3,
 .arrivals_text2 h3 {
   position: absolute;
-  left: 14vw;
+  left: 250px;
   font-size: 2.2rem;
   color: #000;
 }
@@ -285,7 +289,7 @@ button {
 }
 
 .set_text {
-  width: 99vw;
+  width: 100vw;
   height: 100px;
 }
 
@@ -307,7 +311,7 @@ button {
 .set_in {
   float: left;
 
-  width: 99vw;
+  width: 100vw;
   height: 80.2vh;
 }
 
@@ -346,7 +350,7 @@ button {
 
 .set_in .img_right img {
   float: left;
-  width: 49vw;
+  width: 50vw;
   height: 80.2vh;
   object-fit: cover;
   cursor: pointer;
@@ -398,14 +402,14 @@ button {
 /* 매거진 */
 #magazine {
   position: relative;
-  width: 99vw;
+  width: 100vw;
   height: 750px;
   padding-top: 200px;
   overflow: hidden;
 }
 
 #magazine .img1 img {
-  width: 99vw;
+  width: 100vw;
   height: 750px;
 }
 
@@ -523,7 +527,7 @@ button {
 }
 
 .f_2 {
-  width: 99vw;
+  width: 100vw;
   height: 150px;
   background-color: #2d2d2d;
 }

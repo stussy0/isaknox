@@ -1,3 +1,5 @@
+// 네비
+
 // 메인 이미지 전환
 
 const slides = document.querySelectorAll("#container img");
@@ -32,8 +34,6 @@ window.addEventListener("scroll", () => {
     button.style.display = "none";
   }
 });
-
-
 
 //매거진 버튼
 const images = document.querySelectorAll("#magazine .img1 img");
