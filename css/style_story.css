@@ -1,6 +1,6 @@
 #wrap {
-  width: 100%;
-  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* 헤더 */
@@ -9,20 +9,15 @@
   left: 0;
   top: 0;
   z-index: 100;
-  width: 100%;
+  width: 100vw;
   height: 70px;
-  border-bottom: 1px solid #000;
-  /* background-color: rgba(255, 255, 255, 0.075); */
-}
-
-#header:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
 #header_in {
   margin: 0 auto;
   position: relative;
-  width: 1400px;
+  width: 73vw;
 }
 
 #header_in h1 {
@@ -30,12 +25,12 @@
   top: 7px;
   float: left;
   display: block;
-  width: 142px;
+  width: 7vw;
   height: 48px;
 }
 
 #header_in h1 img {
-  width: 142px;
+  width: 8vw;
   height: 48px;
 }
 
@@ -48,7 +43,7 @@
 
 .nav li {
   float: left;
-  padding-right: 88px;
+  padding-right: 5vw;
   font-size: 15px;
   font-weight: bold;
 }
@@ -59,35 +54,31 @@
 
 .menu-dropdown {
   display: none;
-  position: absolute;
-  top: 45px;
-  left: 105%;
-  transform: translateX(-50%);
-  width: 1920px;
-  height: 260px;
-  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100vw;
+  height: 22vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-top: 1px solid #9c9c9c;
   z-index: 1;
 }
 
 .menu-dropdown ul {
+  padding-top: 10px;
 }
 
 .menu-dropdown li {
   display: block;
   text-align: center;
-  padding: 13px 20px;
+  padding: 13px 10px;
   font-size: 15px;
   line-height: 13px;
 }
 
 .menu-dropdown:hover,
 .menu-trigger:hover .menu-dropdown {
-  background-color: rgba(255, 255, 255, 0.7);
   display: block;
-}
-
-.menu-trigger {
-  position: relative;
 }
 
 .nav:hover .menu-dropdown {
@@ -100,12 +91,11 @@
 
 .dropdown {
   margin: 0 auto;
-  width: 870px;
-  border-top: 1px dott;
+  width: 45vw;
 }
 
 .menu-dropdown .brand_mn {
-  width: 150px;
+  width: 145px;
   float: left;
 }
 
@@ -114,10 +104,15 @@
   font-size: 13px;
 }
 
+.dropdown {
+  position: absolute;
+  left: 528px;
+}
+
 .product_mn p {
   font-size: 13px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 50px;
   padding-top: 10px;
   float: left;
 }
