@@ -177,7 +177,7 @@
   display: block;
 }
 
-button {
+.main-btn {
   display: none;
   /* position: fixed;
   height: 56px;
@@ -368,7 +368,7 @@ button {
 /* 스토리 */
 #story {
   max-width: 100vw;
-  height: 8-vh;
+  height: 8vh;
   padding-top: 150px;
   box-sizing: content-box;
 }

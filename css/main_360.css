@@ -229,7 +229,7 @@
 #content2 {
   position: relative;
   max-width: 100vw;
-  height: 62vh;
+  height: 55vh;
   padding-top: 50px;
 }
 
@@ -302,6 +302,7 @@
 
 .arrivals_in1 p,
 .arrivals_in2 p {
+  display: none;
   padding-top: 10px;
   line-height: 1.2rem;
   padding-left: 3vw;
@@ -406,7 +407,7 @@
 /* 스토리 */
 #story {
   max-width: 100vw;
-  height: 75vh;
+  height: 60vh;
   padding-top: 100px;
   box-sizing: content-box;
 }
@@ -429,10 +430,11 @@
 
 #story .text h4 {
   font-size: 1.5rem;
-  padding-bottom: 43px;
+  padding-bottom: 23px;
 }
 
 #story .text p {
+  display: none;
   line-height: 20px;
   padding-bottom: 20px;
   font-size: 0.88rem;
@@ -498,7 +500,7 @@
   position: relative;
   max-width: 100vw;
   height: 35.5vh;
-  padding: 100px 0 100px 0;
+  padding: 100px 0 50px 0;
   box-sizing: content-box;
 }
 
@@ -605,6 +607,7 @@
 
 .f_2 span {
   position: absolute;
+  font-size: 0.2rem;
   top: 0px;
   color: #2e2e2e;
 }
