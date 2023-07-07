@@ -1,0 +1,197 @@
+#wrap {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* 제품메인 */
+.product {
+  margin: 0 auto;
+  width: 855px;
+  height: 495px;
+  margin-top: 167px;
+  color: #000;
+}
+
+.product strong {
+  float: left;
+  width: 399px;
+  height: 398px;
+  top: 170px;
+  left: 533px;
+}
+
+.product img {
+  width: 399px;
+  height: 398px;
+}
+
+.product .p_h {
+  float: right;
+  width: 429px;
+  height: 393px;
+}
+
+.product .p_h p {
+  padding-bottom: 22px;
+}
+
+.p_h .pro_name_en {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.p_h .pro_name {
+  font-size: 20px;
+}
+
+.p_h h2 {
+  padding-top: 35px;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.p_h span {
+  float: left;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.p_h hr {
+  width: 429px;
+  margin-bottom: 20px;
+}
+
+.p_h .buy_go {
+  float: left;
+  display: inline-block;
+  padding: 25px 95px;
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.p_h .buy_go {
+}
+
+.product_in {
+  margin: 0 auto;
+  padding-top: 200px;
+  width: 890px;
+  height: 4420px;
+  color: #000;
+}
+
+.product_in .img1 {
+  float: left;
+  padding-bottom: 35px;
+}
+
+.product_in .img1 img {
+  width: 890px;
+  height: 643px;
+}
+
+.product_in h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.product_in p {
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.product_in .img2,
+.product_in .img3,
+.product_in .img4 {
+  padding-top: 180px;
+  padding-bottom: 35px;
+  float: left;
+}
+
+.product_in .img2 img {
+  width: 890px;
+  height: 889px;
+}
+
+.product_in .img2-1 img,
+.product_in .img2-2 img {
+  padding-right: 15px;
+  float: left;
+  width: 65px;
+  height: 50px;
+}
+
+.product_in .img4 img {
+  width: 890px;
+  height: 700px;
+  background-size: cover;
+}
+
+hr {
+  width: 1540px;
+  margin: 0 auto;
+}
+
+.recommended {
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  height: 820px;
+  color: #000;
+  font-weight: 600;
+}
+
+.recommended h2 {
+  padding-bottom: 100px;
+}
+
+.recommended .re1,
+.recommended .re2 {
+}
+
+.recommended img {
+  position: absolute;
+  cursor: pointer;
+  float: left;
+  width: 170px;
+  height: 380px;
+}
+
+.recommended .re1 img {
+  left: 120px;
+}
+
+.recommended .re2 img {
+  right: 120px;
+}
+
+.recommended .p1 {
+  float: left;
+  position: absolute;
+  top: 650px;
+  left: 160px;
+}
+
+.recommended .span1 {
+  position: absolute;
+  top: 700px;
+  left: 175px;
+}
+
+.recommended .p2 {
+  position: absolute;
+  top: 650px;
+  right: 160px;
+}
+
+.recommended .span2 {
+  position: absolute;
+  top: 700px;
+  right: 170px;
+}

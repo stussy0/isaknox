@@ -1,0 +1,149 @@
+#wrap {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* 제품메인 */
+
+.philosophy {
+  width: 100%;
+  height: 733px;
+  color: #000;
+}
+
+.philosophy img {
+  float: left;
+  padding-right: 100px;
+  width: 1150px;
+  height: 733px;
+}
+
+.philosophy h1,
+.technology h1 {
+  padding-top: 250px;
+  font-size: 45px;
+}
+
+.philosophy h2,
+.technology h2 {
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+.philosophy p,
+.technology p {
+  padding-top: 30px;
+  line-height: 25px;
+}
+
+.technology {
+  width: 100%;
+  height: 819px;
+  color: #000;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.technology .left_img {
+  float: left;
+  padding-right: 100px;
+}
+.technology .right_img {
+  float: right;
+}
+
+.history {
+  position: relative;
+  color: #000;
+  margin: 0 auto;
+  width: 1000px;
+  padding-top: 200px;
+}
+
+.history_title {
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+}
+
+.history h1 {
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-size: 45px;
+}
+.v-line {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  border-left: 2px solid #000;
+  height: 50px;
+}
+
+.history_in {
+  margin: 0 auto;
+  width: 100%;
+  color: #000;
+}
+
+.set_all {
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
+.set_all h4,
+.set_all span,
+.set_all p {
+  display: inline-block;
+}
+
+.set_all h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.set_all ul {
+  padding-left: 115px;
+  width: 100%;
+  margin-top: 27px;
+}
+
+.set_all li {
+  text-align: left;
+  line-height: 20px;
+  text-indent: -150px;
+  padding-left: 260px;
+  margin-bottom: 7px;
+}
+
+.set_all h4 {
+  width: 26px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.set_all span {
+  width: 215px;
+  word-break: keep-all;
+  word-wrap: break-word;
+  margin-right: 16px;
+}
+
+button {
+  margin-top: 50px;
+  height: 46px;
+  width: 46px;
+  background-color: rgba(226, 226, 226, 0.4);
+  border: none;
+  border-radius: 50%;
+  transform: translateX(473px);
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.set_hide {
+  display: none;
+}
