@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style_product.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/product.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,72 +24,8 @@
   </head>
   <body>
     <div id="wrap">
-      <!-- 상단영역 -->
-      <div id="header">
-        <div id="header_in">
-          <h1 class="logo">
-            <a href="./index.html">
-              <img src="./images/logo/logo_b3.png" alt=""
-            /></a>
-          </h1>
-
-          <div class="nav">
-            <div class="menu-trigger">
-              <ul>
-                <li><a href="#">Brand</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Shop</a></li>
-              </ul>
-              <div class="menu-dropdown">
-                <div class="dropdown">
-                  <ul class="brand_mn">
-                    <li><a href="#">Brand Story</a></li>
-                    <li><a href="#">TV/지면광고</a></li>
-                    <li><a href="#">공지사항</a></li>
-                  </ul>
-                  <div class="product_mn">
-                    <ul>
-                      <p>카테고리별</p>
-                      <li><a href="#">에센스　</a></li>
-                      <li><a href="#">스킨　</a></li>
-                      <li><a href="#">로션</a></li>
-                      <li><a href="#">메이크업</a></li>
-                      <li><a href="#">선케어</a></li>
-                      <li><a href="#">아이케어</a></li>
-                      <li><a href="#">집중케어</a></li>
-                      <li><a href="#">클렌징</a></li>
-                      <li><a href="#">남성용</a></li>
-                    </ul>
-                    <ul>
-                      <p>제품라인별</p>
-                      <li><a href="#">테르비나</a></li>
-                      <li><a href="#">선케어</a></li>
-                      <li><a href="#">LXNEW</a></li>
-                      <li><a href="#">스페셜　</a></li>
-                      <li><a href="#">클렌징</a></li>
-                      <li><a href="#">색조</a></li>
-                      <li><a href="#">에이지포커스</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <ul class="info">
-            <li>
-              <a href="#"><img src="./images/logo/search.png" alt="" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./images/logo/insta.png" alt="" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./images/logo/facebook.png" alt="" /></a>
-            </li>
-            <li class="faq"><a href="#">FAQ</a></li>
-          </ul>
-        </div>
-      </div>
+      <!-- ####################### Header ####################### -->
+      <header></header>
 
       <!-- 제품메인 -->
       <div class="product">
@@ -191,35 +129,15 @@
         <span class="span2"><a href="">자세히 보기 ></a></span>
       </div>
 
-      <!-- 하단영역 -->
-      <div id="footer">
-        <div class="f_1">
-          <ul class="link1">
-            <li><a href="">로그인 </a></li>
-            <li><a href="">회원가입</a></li>
-          </ul>
-          <ul class="link2">
-            <li><a href="">고객센터</a></li>
-            <li><a href="">이용약관</a></li>
-            <li><a href="">개인정보처리방침</a></li>
-          </ul>
-          <p><a href="">Family site</a></p>
-        </div>
-        <div class="f_2">
-          <div class="txt">
-            <p>
-              (주)LG생활건강 / 서울특별시 종로구 세문안로 58 LG광화문빌딩
-              110-783<br />
-              대표이사 차석용 / 고객상담실 080-023-7007 / 사업자등록번호
-              107-81-98143
-            </p>
-            <span>COPYRIGHT LG H&H Co., Ltd. 2015 ALL RIGHTS RESERVED.</span>
-            <strong
-              ><a href=""><img src="./images/logo/lg_ci.png" alt="" /></a
-            ></strong>
-          </div>
-        </div>
-      </div>
+      <!-- ####################### Footer ####################### -->
+      <footer></footer>
     </div>
   </body>
+  <!-- ####################### header, footer Separate ###################### -->
+  <script>
+    $(function () {
+      $("header").load("header.html");
+      $("footer").load("footer.html");
+    });
+  </script>
 </html>
