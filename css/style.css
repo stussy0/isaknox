@@ -608,7 +608,7 @@
 
   .slide-text {
     width: 412px;
-    font-size: 16px;
+    font-size: 1px;
     bottom: 133px;
     right: 70px;
   }
@@ -910,9 +910,8 @@
     left: 78px;
   }
 
-  .slide-text p:first-child {
-    font-size: 18px;
-    padding-bottom: 32px;
+  .main-mobile .slide-text {
+    display: none;
   }
 
   .main-mobile span {
@@ -924,7 +923,7 @@
   }
 
   .product-title h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .product-title p {
@@ -940,7 +939,7 @@
   }
 
   .product-con li:nth-child(2) {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .product-contents {
@@ -952,19 +951,27 @@
   }
 
   .gift-title h3 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .gift-title p {
+    font-size: 12px;
   }
 
   .gift-con-text {
-    margin: 19px 0 76px 26px;
+    margin: 19px 0 46px 26px;
   }
 
   .gift-con-text p {
     display: none;
   }
 
+  .gift-con-text span {
+    display: none;
+  }
+
   .gift-con-text h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .gift-contents {
@@ -984,23 +991,24 @@
   }
 
   .story-text h4 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .story-text p {
     display: none;
   }
 
-  .story-text h5 {
-    font-size: 16px;
+  .story-text h5,
+  .story-text a {
+    font-size: 14px;
   }
 
   .sns-text h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .sns-text p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .sns {
@@ -1013,5 +1021,9 @@
 
   .footer-bottom {
     padding-top: 20px;
+  }
+
+  .footer-bt-in span {
+    font-size: 12px;
   }
 }
